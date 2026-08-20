@@ -73,7 +73,7 @@ if ENABLE_SERVERS then
         -- @field httpLogin Enables HTTP-based login on the server
         -- @field useAuthenticator Enables additional authentication layer
         --
-        ["http://127.0.0.1/login.php"] = {
+        ["https://42ots.eu/login.php"] = {
             port = 80,
             protocol = 1511,
             httpLogin = true,
