@@ -74,8 +74,8 @@ if ENABLE_SERVERS then
         -- @field useAuthenticator Enables additional authentication layer
         --
         ["https://42ots.eu/login.php"] = {
-            port = 80,
-            protocol = 1511,
+            port = 443,
+            protocol = 1525,
             httpLogin = true,
             useAuthenticator = false
         },
